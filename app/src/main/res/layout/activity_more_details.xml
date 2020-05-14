@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoreDetailsActivity"
+    android:background="@drawable/background"
+    style="@style/Theme.AppCompat.DayNight.NoActionBar"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:text="3 day Forecast"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_view1"
+        app:cardBackgroundColor="@color/cardview_dark_background"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        android:elevation="20dp"
+        >
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:text="Today"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Date_tv1"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="8dp"
+
+            android:textColor="#FFFFFF"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="40dp"
+            android:text="Humidity: "
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="70dp"
+            android:text="Pressure: "
+            android:textColor="#FFFFFF"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="WindSpeed: "
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="100dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/humidity_tv1"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pressure_tv1"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="#FFFFFF"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/windspeed_tv1"
+            android:layout_marginLeft="80dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="100dp"
+            />
+
+        <ImageView
+            android:id="@+id/weather_imageView1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="20dp"
+
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc_tv1"
+            android:textSize="10dp"
+            android:layout_marginLeft="260dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center_horizontal"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_view2"
+        app:cardBackgroundColor="@color/cardview_dark_background"
+        android:layout_margin="20dp"
+        android:layout_below="@id/card_view1"
+        android:elevation="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:text="Tomorrow"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Date_tv2"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="8dp"
+
+            android:textColor="#FFFFFF"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="40dp"
+            android:text="Humidity: "
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="70dp"
+            android:text="Pressure: "
+            android:textColor="#FFFFFF"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="WindSpeed: "
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="100dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/humidity_tv2"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pressure_tv2"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="#FFFFFF"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/windspeed_tv2"
+            android:layout_marginLeft="80dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="100dp"
+            />
+
+        <ImageView
+            android:id="@+id/weather_imageView2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc_tv2"
+            android:textSize="10dp"
+            android:layout_marginLeft="260dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center_horizontal"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_view3"
+        app:cardBackgroundColor="@color/cardview_dark_background"
+
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/card_view2"
+        android:elevation="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:text="Day After"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Date_tv3"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="8dp"
+
+            android:textColor="#FFFFFF"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="40dp"
+            android:text="Humidity: "
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="70dp"
+            android:text="Pressure: "
+            android:textColor="#FFFFFF"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="WindSpeed: "
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="100dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/humidity_tv3"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pressure_tv3"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="#FFFFFF"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/windspeed_tv3"
+            android:layout_marginLeft="80dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="100dp"
+            />
+
+        <ImageView
+            android:id="@+id/weather_imageView3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc_tv3"
+            android:textSize="10dp"
+            android:layout_marginLeft="260dp"
+            android:textColor="#FFFFFF"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data provided in part by OpenWeather"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        />
+
+
+
+
+
+</RelativeLayout>
